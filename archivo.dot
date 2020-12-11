@@ -1,0 +1,21 @@
+digraph dibujo{
+graph [ordering="out"];rankdir=TB;
+node [shape = box];
+Nodo0 [ label = "14"];
+Nodo1 [ label = "6,8"];
+Nodo2 [ label = "2,3"];
+Nodo1->Nodo2;
+Nodo4 [ label = "7"];
+Nodo1->Nodo4;
+Nodo6 [ label = "9,12"];
+Nodo1->Nodo6;
+Nodo0->Nodo1;
+Nodo9 [ label = "20,35"];
+Nodo10 [ label = "15,18"];
+Nodo9->Nodo10;
+Nodo12 [ label = "25,30"];
+Nodo9->Nodo12;
+Nodo14 [ label = "40"];
+Nodo9->Nodo14;
+Nodo0->Nodo9;
+}
